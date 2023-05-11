@@ -5,27 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e2270e1-75d7-4d18-aba1-b5699b3d9644" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/App3ralla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/Controller3ralla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerInicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerNombres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/ElegirNombres.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/Inicio.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/View3ralla.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/estilo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/Final.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/App3ralla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/App3ralla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/Controller3ralla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/Controller3ralla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerInicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerNombres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerNombres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/tresenralla/ElegirNombres.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/ElegirNombres.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/tresenralla/View3ralla.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/View3ralla.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/tresenralla/estilo.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +86,12 @@
       <workItem from="1683759097404" duration="980000" />
       <workItem from="1683760117766" duration="594000" />
       <workItem from="1683760725015" duration="569000" />
+      <workItem from="1683794093889" duration="60000" />
+      <workItem from="1683797632868" duration="157000" />
+      <workItem from="1683814939837" duration="3296000" />
+      <workItem from="1683818292204" duration="26000" />
+      <workItem from="1683818330075" duration="2334000" />
+      <workItem from="1683824478323" duration="4413000" />
     </task>
     <servers />
   </component>

@@ -24,10 +24,17 @@ public class ControllerInicio {
         FXMLLoader juego = new FXMLLoader(App3ralla.class.getResource("View3ralla.fxml"));
         Parent rootJuego = juego.load();
         Controller3ralla c = juego.getController();
-        c.iniciarPartida(ControllerNombres.j1,ControllerNombres.j2);
-        Stage stage2 = (Stage) ((Node)e.getSource()).getScene().getWindow();
-        Scene escenaJuego = new Scene(rootJuego,600,600);
-        stage2.setScene(escenaJuego);
-        stage2.show();
+        if (ControllerNombres.j1 != null && ControllerNombres.j2 != null){
+            if (ControllerNombres.j1.equals("") || ControllerNombres.j2.equals("")){
+                System.out.println("Error");
+            }else {
+                c.iniciarPartida(ControllerNombres.j1,ControllerNombres.j2);
+                Stage stage2 = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                Scene escenaJuego = new Scene(rootJuego,600,600);
+                stage2.setScene(escenaJuego);
+                stage2.setResizable(false);
+                stage2.show();
+            }
+        }
     }
 }

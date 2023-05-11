@@ -26,7 +26,7 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <Label fx:id="turno" contentDisplay="CENTER" layoutX="17.0" layoutY="86.0" prefHeight="17.0" prefWidth="103.0" text="1" />
+      <Label fx:id="mostrarTurno" contentDisplay="CENTER" layoutX="17.0" layoutY="86.0" prefHeight="17.0" prefWidth="103.0" text="1" />
       <Label layoutX="473.0" layoutY="49.0" text="Jugadores:">
          <font>
             <Font size="18.0" />

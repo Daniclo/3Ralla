@@ -16,6 +16,7 @@ public class App3ralla extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 600, 600);
         stage.setTitle("3 en ralla");
         stage.getIcons().add(icon);
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
     }

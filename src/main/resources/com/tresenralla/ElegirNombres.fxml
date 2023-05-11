@@ -11,5 +11,6 @@
       <Label layoutX="121.0" layoutY="158.0" text="Rojo:" />
       <Label layoutX="122.0" layoutY="236.0" text="Azul:" />
       <Button fx:id="botonOk" layoutX="201.0" layoutY="302.0" mnemonicParsing="false" onAction="#pulsarBotonGuardarNombres" text="OK" />
+      <Label fx:id="error" layoutX="144.0" layoutY="342.0" />
    </children>
 </AnchorPane>
