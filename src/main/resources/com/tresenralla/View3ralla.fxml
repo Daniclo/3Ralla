@@ -34,5 +34,10 @@
       </Label>
       <Label fx:id="jRojo" layoutX="473.0" layoutY="94.0" text="Rojo: " />
       <Label fx:id="jAzul" layoutX="475.0" layoutY="124.0" text="Azul: " />
+      <Label fx:id="turnoDe" layoutX="253.0" layoutY="351.0" text="Turno rojo!" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

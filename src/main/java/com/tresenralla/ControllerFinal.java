@@ -14,8 +14,9 @@ public class ControllerFinal {
         }else if (color.equals("azul")){
             labelGanador.setText("Ganador: " + ganador);
             labelGanador.setStyle("-fx-text-fill: blue");
-        }else {
-            System.err.println("Error");
+        }else if (color.equals("negro")){
+            labelGanador.setText(ganador);
+            labelGanador.setStyle("-fx-text-fill: black");
         }
     }
 }

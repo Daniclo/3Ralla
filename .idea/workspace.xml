@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2270e1-75d7-4d18-aba1-b5699b3d9644" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerFinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/Final.fxml" afterDir="false" />
+    <list default="true" id="0e2270e1-75d7-4d18-aba1-b5699b3d9644" name="Changes" comment="YA CASI FUNCIONA EL JUEGO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/App3ralla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/App3ralla.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/Controller3ralla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/Controller3ralla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerFinal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerInicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerNombres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerNombres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/tresenralla/ElegirNombres.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/ElegirNombres.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/tresenralla/Inicio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/Inicio.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/tresenralla/View3ralla.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/View3ralla.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/tresenralla/estilo.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +56,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\IdeaProjects\TresEnRalla\src\main\java\com\tresenralla" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\IdeaProjects\3Ralla" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application">
@@ -91,12 +91,26 @@
       <workItem from="1683814939837" duration="3296000" />
       <workItem from="1683818292204" duration="26000" />
       <workItem from="1683818330075" duration="2334000" />
-      <workItem from="1683824478323" duration="4413000" />
+      <workItem from="1683824478323" duration="5363000" />
+      <workItem from="1683830745598" duration="513000" />
+      <workItem from="1683837037668" duration="3332000" />
     </task>
+    <task id="LOCAL-00001" summary="YA CASI FUNCIONA EL JUEGO">
+      <created>1683829999265</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683829999265</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="YA CASI FUNCIONA EL JUEGO" />
+    <option name="LAST_COMMIT_MESSAGE" value="YA CASI FUNCIONA EL JUEGO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
