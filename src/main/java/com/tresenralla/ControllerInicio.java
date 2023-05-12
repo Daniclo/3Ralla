@@ -7,7 +7,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Modality;
@@ -48,6 +47,10 @@ public class ControllerInicio implements Initializable {
                 stage2.show();
             }
         }
+    }
+    @FXML
+    protected void alPulsarVerRecords(ActionEvent e){
+
     }
     @FXML
     protected void alPulsarSalir(ActionEvent e){

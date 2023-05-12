@@ -4,6 +4,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
@@ -82,7 +83,6 @@ public class Controller3ralla implements Initializable {
     private int jugador = 0;
     private int turno = 1;
     private int accionesPorTurno = 0;
-    Boolean empate = isPressedBotLeft && isPressedBotRight && isPressedBotMid && isPressedCenterMid && isPressedCenterRight && isPressedCenterLeft && isPressedUpLeft && isPressedUpRight && isPressedUpMid;
     private final EventHandler<MouseEvent> handler = e ->{
         //0 -> Rojo
         //1 -> Azul
@@ -110,24 +110,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -163,24 +147,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -216,24 +184,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -269,24 +221,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -322,24 +258,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -375,24 +295,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -428,24 +332,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -481,24 +369,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -534,24 +406,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -590,24 +446,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -643,24 +483,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -696,24 +520,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -749,24 +557,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -802,24 +594,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -855,24 +631,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -908,24 +668,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -961,24 +705,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -1014,24 +742,8 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
-                            stage.setScene(scene);
-                            stage.setResizable(false);
-                            stage.show();
-                        }else if (empate){
-                            System.out.println("Victoria");
-                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
-                            Parent root;
-                            try {
-                                root = loader.load();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ControllerFinal controllerFinal = loader.getController();
-                            controllerFinal.setGanador("Empate","negro");
-                            Scene scene = new Scene(root, 600, 600);
-                            Stage stage = new Stage();
                             stage.setScene(scene);
                             stage.setResizable(false);
                             stage.show();
@@ -1059,22 +771,38 @@ public class Controller3ralla implements Initializable {
 
     private boolean comprobarVictoria() {
         //Definir condiciones de victoria:
-        Boolean lineaHorizontalAbajoRoja = (isPressedBotLeft && isPressedBotRight && isPressedBotMid && colorBotLeft.equals("red") && colorBotRight.equals("red") && colorBotMid.equals("red"));
-        Boolean lineaHorizontalAbajoAzul = (isPressedBotLeft && isPressedBotRight && isPressedBotMid && colorBotLeft.equals("blue") && colorBotRight.equals("blue") && colorBotMid.equals("blue"));
-        Boolean lineaHorizontalMedioRoja = (isPressedCenterLeft && isPressedCenterMid && isPressedCenterRight && colorCenterLeft.equals("red") && colorCenterMid.equals("red") && colorCenterRight.equals("red"));
-        Boolean lineaHorizontalMedioAzul = (isPressedCenterLeft && isPressedCenterMid && isPressedCenterRight && colorCenterLeft.equals("blue") && colorCenterMid.equals("blue") && colorCenterRight.equals("blue"));
-        Boolean lineaHorizontalArribaRoja = (isPressedUpLeft && isPressedUpMid && isPressedUpRight && colorUpLeft.equals("red") && colorUpMid.equals("red") && colorUpRight.equals("red"));
-        Boolean lineaHorizontalArribaAzul = (isPressedUpLeft && isPressedUpMid && isPressedUpRight && colorUpLeft.equals("blue") && colorUpMid.equals("blue") && colorUpRight.equals("blue"));
-        Boolean lineaVerticalIzquierdaRoja = (isPressedBotLeft && isPressedCenterLeft && isPressedUpLeft && colorBotLeft.equals("red") && colorCenterLeft.equals("red") && colorUpLeft.equals("red"));
-        Boolean lineaVerticalIzquierdaAzul = (isPressedBotLeft && isPressedCenterLeft && isPressedUpLeft && colorBotLeft.equals("blue") && colorCenterLeft.equals("blue") && colorUpLeft.equals("blue"));
-        Boolean lineaVerticalCentralRoja = (isPressedBotMid && isPressedCenterMid && isPressedUpMid && colorBotMid.equals("red") && colorCenterMid.equals("red") && colorUpMid.equals("red"));
-        Boolean lineaVerticalCentralAzul = (isPressedBotMid && isPressedCenterMid && isPressedUpMid && colorBotMid.equals("blue") && colorCenterMid.equals("blue") && colorUpMid.equals("blue"));
-        Boolean lineaVerticalDerechaRoja = (isPressedBotRight && isPressedCenterRight && isPressedUpRight && colorBotRight.equals("red") && colorCenterRight.equals("red") && colorUpRight.equals("red"));
-        Boolean lineaVerticalDerechaAzul = (isPressedBotRight && isPressedCenterRight && isPressedUpRight && colorBotRight.equals("blue") && colorCenterRight.equals("blue") && colorUpRight.equals("blue"));
-        Boolean lineaDiagonal1Roja = (isPressedBotLeft && isPressedCenterMid && isPressedUpRight && colorBotLeft.equals("red") && colorCenterMid.equals("red") && colorUpRight.equals("red"));
-        Boolean lineaDiagonal1Azul = (isPressedBotLeft && isPressedCenterMid && isPressedUpRight && colorBotLeft.equals("blue") && colorCenterMid.equals("blue") && colorUpRight.equals("blue"));
-        Boolean lineaDiagonal2Roja = (isPressedUpLeft && isPressedCenterMid && isPressedBotRight && colorUpLeft.equals("red") && colorCenterMid.equals("red") && colorBotRight.equals("red"));
-        Boolean lineaDiagonal2Azul = (isPressedUpLeft && isPressedCenterMid && isPressedBotRight && colorUpLeft.equals("blue") && colorCenterMid.equals("blue") && colorBotRight.equals("blue"));
+        Boolean lineaHorizontalAbajoRoja = (isPressedBotLeft && isPressedBotRight && isPressedBotMid &&
+                colorBotLeft.equals("red") && colorBotRight.equals("red") && colorBotMid.equals("red"));
+        Boolean lineaHorizontalAbajoAzul = (isPressedBotLeft && isPressedBotRight && isPressedBotMid &&
+                colorBotLeft.equals("blue") && colorBotRight.equals("blue") && colorBotMid.equals("blue"));
+        Boolean lineaHorizontalMedioRoja = (isPressedCenterLeft && isPressedCenterMid && isPressedCenterRight
+                && colorCenterLeft.equals("red") && colorCenterMid.equals("red") && colorCenterRight.equals("red"));
+        Boolean lineaHorizontalMedioAzul = (isPressedCenterLeft && isPressedCenterMid && isPressedCenterRight
+                && colorCenterLeft.equals("blue") && colorCenterMid.equals("blue") && colorCenterRight.equals("blue"));
+        Boolean lineaHorizontalArribaRoja = (isPressedUpLeft && isPressedUpMid && isPressedUpRight
+                && colorUpLeft.equals("red") && colorUpMid.equals("red") && colorUpRight.equals("red"));
+        Boolean lineaHorizontalArribaAzul = (isPressedUpLeft && isPressedUpMid && isPressedUpRight
+                && colorUpLeft.equals("blue") && colorUpMid.equals("blue") && colorUpRight.equals("blue"));
+        Boolean lineaVerticalIzquierdaRoja = (isPressedBotLeft && isPressedCenterLeft && isPressedUpLeft
+                && colorBotLeft.equals("red") && colorCenterLeft.equals("red") && colorUpLeft.equals("red"));
+        Boolean lineaVerticalIzquierdaAzul = (isPressedBotLeft && isPressedCenterLeft && isPressedUpLeft
+                && colorBotLeft.equals("blue") && colorCenterLeft.equals("blue") && colorUpLeft.equals("blue"));
+        Boolean lineaVerticalCentralRoja = (isPressedBotMid && isPressedCenterMid && isPressedUpMid
+                && colorBotMid.equals("red") && colorCenterMid.equals("red") && colorUpMid.equals("red"));
+        Boolean lineaVerticalCentralAzul = (isPressedBotMid && isPressedCenterMid && isPressedUpMid
+                && colorBotMid.equals("blue") && colorCenterMid.equals("blue") && colorUpMid.equals("blue"));
+        Boolean lineaVerticalDerechaRoja = (isPressedBotRight && isPressedCenterRight && isPressedUpRight
+                && colorBotRight.equals("red") && colorCenterRight.equals("red") && colorUpRight.equals("red"));
+        Boolean lineaVerticalDerechaAzul = (isPressedBotRight && isPressedCenterRight && isPressedUpRight
+                && colorBotRight.equals("blue") && colorCenterRight.equals("blue") && colorUpRight.equals("blue"));
+        Boolean lineaDiagonal1Roja = (isPressedBotLeft && isPressedCenterMid && isPressedUpRight
+                && colorBotLeft.equals("red") && colorCenterMid.equals("red") && colorUpRight.equals("red"));
+        Boolean lineaDiagonal1Azul = (isPressedBotLeft && isPressedCenterMid && isPressedUpRight
+                && colorBotLeft.equals("blue") && colorCenterMid.equals("blue") && colorUpRight.equals("blue"));
+        Boolean lineaDiagonal2Roja = (isPressedUpLeft && isPressedCenterMid && isPressedBotRight
+                && colorUpLeft.equals("red") && colorCenterMid.equals("red") && colorBotRight.equals("red"));
+        Boolean lineaDiagonal2Azul = (isPressedUpLeft && isPressedCenterMid && isPressedBotRight
+                && colorUpLeft.equals("blue") && colorCenterMid.equals("blue") && colorBotRight.equals("blue"));
 
         //Devolver true si se cumple alguna de las condiciones de victoria (del mismo color):
         return lineaHorizontalAbajoRoja || lineaHorizontalAbajoAzul || lineaHorizontalMedioRoja || lineaHorizontalMedioAzul || lineaHorizontalArribaRoja || lineaHorizontalArribaAzul ||

@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2270e1-75d7-4d18-aba1-b5699b3d9644" name="Changes" comment="YA CASI FUNCIONA EL JUEGO">
+    <list default="true" id="0e2270e1-75d7-4d18-aba1-b5699b3d9644" name="Changes" comment="El juego funciona. Falta ajustar el empate, hacer el comentario y arreglar la imagen.">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/CrearBDRecords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/Controller3ralla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/Controller3ralla.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerFinal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerInicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/tresenralla/Final.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/Final.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/tresenralla/Inicio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/Inicio.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/tresenralla/View3ralla.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/View3ralla.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,27 +40,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/IdeaProjects/TresEnRalla/src/main/java/com/tresenralla&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Download Shared Index": "Shared indexes available",
+    "Notification.DoNotAsk-Download Shared Index": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Usuario/AppData/Roaming/JetBrains/IntelliJIdea2023.1/jdbc-drivers/MySQL ConnectorJ/8.0.25/mysql-connector-java-8.0.25.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.46781608",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\IdeaProjects\TresEnRalla\src\main\java\com\tresenralla" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\IdeaProjects\3Ralla" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tresenralla" />
     </key>
   </component>
   <component name="RunManager">
@@ -93,7 +109,12 @@
       <workItem from="1683818330075" duration="2334000" />
       <workItem from="1683824478323" duration="5363000" />
       <workItem from="1683830745598" duration="513000" />
-      <workItem from="1683837037668" duration="3332000" />
+      <workItem from="1683837037668" duration="4157000" />
+      <workItem from="1683842496851" duration="97000" />
+      <workItem from="1683842598662" duration="110000" />
+      <workItem from="1683882083638" duration="502000" />
+      <workItem from="1683882603671" duration="1564000" />
+      <workItem from="1683884253529" duration="2778000" />
     </task>
     <task id="LOCAL-00001" summary="YA CASI FUNCIONA EL JUEGO">
       <created>1683829999265</created>
@@ -102,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683829999265</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="El juego funciona. Falta ajustar el empate, hacer el comentario y arreglar la imagen.">
+      <created>1683840591070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683840591070</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +138,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="YA CASI FUNCIONA EL JUEGO" />
-    <option name="LAST_COMMIT_MESSAGE" value="YA CASI FUNCIONA EL JUEGO" />
+    <MESSAGE value="El juego funciona. Falta ajustar el empate, hacer el comentario y arreglar la imagen." />
+    <option name="LAST_COMMIT_MESSAGE" value="El juego funciona. Falta ajustar el empate, hacer el comentario y arreglar la imagen." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
