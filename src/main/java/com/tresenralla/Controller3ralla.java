@@ -18,6 +18,7 @@ import static com.tresenralla.ControllerNombres.j1;
 import static com.tresenralla.ControllerNombres.j2;
 
 public class Controller3ralla implements Initializable {
+    boolean finEmpate = false;
     @FXML
     private Label mostrarTurno;
     @FXML
@@ -96,7 +97,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -110,6 +111,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -133,7 +150,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -147,6 +164,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -170,7 +203,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -184,6 +217,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -207,7 +256,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -221,6 +270,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -244,7 +309,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -258,6 +323,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -281,7 +362,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -295,6 +376,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -318,7 +415,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -332,6 +429,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -355,7 +468,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -369,6 +482,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -392,7 +521,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -406,6 +535,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -432,7 +577,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -446,6 +591,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -469,7 +630,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -483,6 +644,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -506,7 +683,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -520,6 +697,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -543,7 +736,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -557,6 +750,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -580,7 +789,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -594,6 +803,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -617,7 +842,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -631,6 +856,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -654,7 +895,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -668,6 +909,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -691,7 +948,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -705,6 +962,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -728,7 +1001,7 @@ public class Controller3ralla implements Initializable {
                         accionesPorTurno++;
                         System.out.println("Jugador: " + jugador + "\nTurno: " + turno + "\nAcciones por turno: " + accionesPorTurno);
                         if (comprobarVictoria()) {
-                            System.out.println("Victoria");
+                            System.out.println(comprobarVictoria());
                             FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
                             Parent root;
                             try {
@@ -742,6 +1015,22 @@ public class Controller3ralla implements Initializable {
                             } else if (jugador == 1) {
                                 controllerFinal.setGanador(j2, "azul");
                             }
+                            Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+                            Scene scene = new Scene(root, 600, 600);
+                            stage.setScene(scene);
+                            stage.setResizable(false);
+                            stage.show();
+                        }else if (finEmpate){
+                            System.out.println("Empate");
+                            FXMLLoader loader = new FXMLLoader(App3ralla.class.getResource("Final.fxml"));
+                            Parent root;
+                            try {
+                                root = loader.load();
+                            }catch (IOException ex){
+                                throw new RuntimeException(ex);
+                            }
+                            ControllerFinal controllerFinal = loader.getController();
+                            controllerFinal.setGanador("empate","negro");
                             Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
                             Scene scene = new Scene(root, 600, 600);
                             stage.setScene(scene);
@@ -803,11 +1092,20 @@ public class Controller3ralla implements Initializable {
                 && colorUpLeft.equals("red") && colorCenterMid.equals("red") && colorBotRight.equals("red"));
         Boolean lineaDiagonal2Azul = (isPressedUpLeft && isPressedCenterMid && isPressedBotRight
                 && colorUpLeft.equals("blue") && colorCenterMid.equals("blue") && colorBotRight.equals("blue"));
+        Boolean empate = isPressedBotLeft && isPressedBotRight && isPressedBotMid && isPressedUpRight && isPressedUpLeft && isPressedUpMid &&
+                isPressedCenterLeft && isPressedCenterMid && isPressedCenterRight;
 
         //Devolver true si se cumple alguna de las condiciones de victoria (del mismo color):
-        return lineaHorizontalAbajoRoja || lineaHorizontalAbajoAzul || lineaHorizontalMedioRoja || lineaHorizontalMedioAzul || lineaHorizontalArribaRoja || lineaHorizontalArribaAzul ||
+        if (lineaHorizontalAbajoRoja || lineaHorizontalAbajoAzul || lineaHorizontalMedioRoja || lineaHorizontalMedioAzul || lineaHorizontalArribaRoja || lineaHorizontalArribaAzul ||
                 lineaVerticalIzquierdaRoja || lineaVerticalIzquierdaAzul || lineaVerticalCentralRoja || lineaVerticalCentralAzul || lineaVerticalDerechaRoja || lineaVerticalDerechaAzul ||
-                lineaDiagonal1Roja || lineaDiagonal1Azul || lineaDiagonal2Roja || lineaDiagonal2Azul;
+                lineaDiagonal1Roja || lineaDiagonal1Azul || lineaDiagonal2Roja || lineaDiagonal2Azul){
+            return true;
+        }else if (empate){
+            finEmpate = true;
+            return false;
+        }else {
+            return false;
+        }
     }
 
     @Override

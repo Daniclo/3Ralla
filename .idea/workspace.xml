@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2270e1-75d7-4d18-aba1-b5699b3d9644" name="Changes" comment="El juego funciona. Falta ajustar el empate, hacer el comentario y arreglar la imagen.">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/CrearBDRecords.java" afterDir="false" />
+    <list default="true" id="0e2270e1-75d7-4d18-aba1-b5699b3d9644" name="Changes" comment="Arreglar empate + records">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f6c96de0-d186-4ec2-90a8-c386c4b872f5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f6c96de0-d186-4ec2-90a8-c386c4b872f5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/Controller3ralla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/Controller3ralla.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerFinal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tresenralla/ControllerInicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/tresenralla/Final.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/Final.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/tresenralla/Inicio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/tresenralla/Inicio.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,31 +34,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Notification.DisplayName-DoNotAsk-Download Shared Index": "Shared indexes available",
-    "Notification.DoNotAsk-Download Shared Index": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Usuario/AppData/Roaming/JetBrains/IntelliJIdea2023.1/jdbc-drivers/MySQL ConnectorJ/8.0.25/mysql-connector-java-8.0.25.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.46781608",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Notification.DisplayName-DoNotAsk-Download Shared Index&quot;: &quot;Shared indexes available&quot;,
+    &quot;Notification.DoNotAsk-Download Shared Index&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/AppData/Roaming/JetBrains/IntelliJIdea2023.1/jdbc-drivers/MySQL ConnectorJ/8.0.25/mysql-connector-java-8.0.25.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.46781608&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\IdeaProjects\TresEnRalla\src\main\java\com\tresenralla" />
@@ -114,7 +108,13 @@
       <workItem from="1683842598662" duration="110000" />
       <workItem from="1683882083638" duration="502000" />
       <workItem from="1683882603671" duration="1564000" />
-      <workItem from="1683884253529" duration="2778000" />
+      <workItem from="1683884253529" duration="3172000" />
+      <workItem from="1683906838331" duration="311000" />
+      <workItem from="1683911120913" duration="1388000" />
+      <workItem from="1683915978018" duration="243000" />
+      <workItem from="1683922402403" duration="13000" />
+      <workItem from="1683925902639" duration="3000" />
+      <workItem from="1683994448123" duration="3908000" />
     </task>
     <task id="LOCAL-00001" summary="YA CASI FUNCIONA EL JUEGO">
       <created>1683829999265</created>
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683840591070</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Arreglar empate + records">
+      <created>1683902924201</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683902924201</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,16 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="YA CASI FUNCIONA EL JUEGO" />
     <MESSAGE value="El juego funciona. Falta ajustar el empate, hacer el comentario y arreglar la imagen." />
-    <option name="LAST_COMMIT_MESSAGE" value="El juego funciona. Falta ajustar el empate, hacer el comentario y arreglar la imagen." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.RuntimeException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Arreglar empate + records" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglar empate + records" />
   </component>
 </project>

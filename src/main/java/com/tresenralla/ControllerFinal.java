@@ -11,7 +11,6 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.sql.*;
 
-
 public class ControllerFinal {
     @FXML
     private Label labelGanador;
